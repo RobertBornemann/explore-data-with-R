@@ -33,9 +33,9 @@ options(warn=-1)
 
 ```
 
-The goal of this report is to explore a dataset containing 1599 red wine 
-samples. Moreover, it is to highlight aspects of exploratory data analysis as 
-part of the udacity data anlyst course. The dataset used in this report is 
+This is a R Markdown EDA report on a dataset containing 1599 red wine samples. 
+The goal was to clean and understand the dataset and explore what chemical 
+predicators define wine quality. The dataset used in this report is 
 publicly available for research through:
 
 [@Elsevier] http://dx.doi.org/10.1016/j.dss.2009.05.016 \
@@ -832,7 +832,7 @@ ggplot(data=rm_outliers_subset, aes(x=density, y=alcohol, col=quality,
 
 The third and last plot is a summarisation of how I would want to further 
 explore the model explaining the variance in quality. It is an attempt to 
-combine the most important variable in the eploratiry data analysis. Alcohol and 
+combine the most important variable in the exploratiry data analysis. Alcohol and 
 quality have the strongest relationship in the analysis so far. My thought was 
 to use this relationship and expand with density as density correlate very well
 back with alcohol. The less dense the wine is the more alcohol it seems to 
@@ -844,32 +844,6 @@ volatile.acidity as I was hoping it would add to the overall significance of the
 plot. Unfortunately, I don't see the size by volatile.acidity to be that 
 informative.
 ------
-
-# Reflection
-
-It was a very challenging assigment for me but I learned a lot of new things. I
-am especially happy about having worked so much with ggplot as this stage. I 
-feel super comfortable using it and resolving issues I havn't figured out about 
-the tool yet. From an analysis perspective I had thought that I might be able to 
-find similar significant results as in the diamond dataset. While I am happy 
-with some of the finding I have presented I feel that the report lacks to 
-deliver any suprising or outstanding results. The strongest results I was able 
-to show within the scope of the exploratoy data analysis was the influence 
-alcohol has on quality. After all it seems that the fun factor about wine is 
-the biggest predictor that determines a good wine. Probably very much to the 
-disaffection of sommeliers. On the other hand it became clear that the right 
-amount of accidity is an important factor for quality as well. Too much
-of its presence tends to result in lower quality scores. With alcohol and 
-volatile acidity being the main contributors for quality I could imagine to
-continue deep diving in an advanced analysis. Perhaps there could be a way to
-merge variables describing accidity in order to understand their affect on
-quality better.
-
-I was also quite busy with my dayjob so I'm really happy that I was actually 
-able to subbmit this assignment way past due date. One aspect I have mentioned a 
-lot is domain knowledge. With more time available I would try to study the 
-variables in more detail in order to finetune the analysis and derive more 
-insights.
 
 References:
 
